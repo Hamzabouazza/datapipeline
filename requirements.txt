@@ -1,0 +1,20 @@
+# Banking Data Pipeline Dependencies
+# Python 3.13+ compatible
+
+# Data Processing
+pyspark==4.0.1
+pyarrow>=17.0.0
+pandas>=2.0.0
+
+# Synthetic Data Generation
+dbldatagen>=0.4.0
+
+# DBT for Data Transformation
+dbt-postgres>=1.9.0
+
+# Database
+psycopg2-binary>=2.9.0
+
+# Configuration
+python-dotenv>=1.0.0
+
